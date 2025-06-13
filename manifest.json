@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "TabShoter - Full Page Capture",
+  "name": "TabShoter",
   "version": "1.0.0",
   "minimum_chrome_version": "116",
   "description": "TabShoter lets you capture full-page or selected-area screenshots of any website using Chrome's debugging API. It's easy, quick, and simple!",
