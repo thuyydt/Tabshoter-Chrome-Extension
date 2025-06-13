@@ -3,7 +3,7 @@
   "name": "TabShoter - Full Page Capture",
   "version": "1.0.0",
   "minimum_chrome_version": "116",
-  "description": "Capture the current tab with scrolling (full-page screenshot)",
+  "description": "TabShoter lets you capture full-page or selected-area screenshots of any website using Chrome's debugging API. It's easy, quick, and simple!",
   "permissions": [
     "activeTab", 
     "scripting", 
