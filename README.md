@@ -26,12 +26,13 @@ If you need a tool with more features, please skip this one.
 ## Permissions
 For your Chrome extension (TabShoter), the permissions you have in your manifest are correct and necessary for the features you implement:
 
-"activeTab": To access the currently active tab for capturing screenshots.
-"scripting": To inject scripts (like your content.js) into web pages.
-"downloads": To save screenshots to the user's computer.
-"tabs": To query tab information (e.g., get the active tab).
-"debugger": To use the chrome.debugger API for full-page and area screenshots.
-"contextMenus": To add right-click menu options to your extension icon.
-You also have:
+- "activeTab": To access the currently active tab for capturing screenshots.
+- "scripting": To inject scripts (like your content.js) into web pages.
+- "downloads": To save screenshots to the user's computer.
+- "tabs": To query tab information (e.g., get the active tab).
+- "debugger": To use the chrome.debugger API for full-page and area screenshots.
+- "contextMenus": To add right-click menu options to your extension icon.
+- You also have: "host_permissions": ["<all_urls>"] — This is needed to allow your scripts to run on all websites.
 
-"host_permissions": ["<all_urls>"] — This is needed to allow your scripts to run on all websites.
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
